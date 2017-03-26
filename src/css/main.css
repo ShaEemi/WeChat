@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	font-family: Avenir, Roboto, Sans-Serif;
+}
+/*
+*	Class Global
+*/
+
+
+/*
+*	App.js
+*/
+h1{
+	text-align: center;
+	margin-top: 2%;
+}
+input[type="text"] {
+    margin: 5% 0% 3% 43%;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+input[type="submit"] {
+	width: 200px;
+	height: 30px;
+	margin-left: 43%;
+	border-radius: 5px;
+	background-color: #08a2ef;
+	border-color: #08a2ef;
+}
+/*
+* ChatRoom.js
+*/
+.container {
+  display: flex;
+  flex-direction: column;
+}
+h2{
+	text-align: center;
+	margin-top: 2%;
+}

@@ -48,7 +48,7 @@ class ChatRoom extends Component {
   render() {
     return (
       <div className="container">
-        <h3>Chat Room</h3>
+        <h2>Chat Room</h2>
         <Messages messages={this.state.messages} />
         <ChatInput onSend={this.sendHandler} />
       </div>
